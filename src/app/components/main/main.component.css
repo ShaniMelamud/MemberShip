@@ -1,0 +1,21 @@
+div{
+    display: inline-block;
+    width:300px;
+    height: 350px;
+    border:1px solid gold;
+    margin-top: 45px;
+    margin-left: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+    
+
+}
+
+.find-user{
+    background-color: #FFE2D1;
+    
+}
+
+.new-user{
+    background-color: #E1F0C4;
+}

@@ -1,0 +1,36 @@
+h1,button{
+    outline : none;
+}
+h1{
+    cursor: pointer;
+    margin: 0;
+    color: orange;
+}
+
+nav{
+    position: absolute;
+    top:10%;
+    right:6%;
+
+}
+.admin{
+    position: absolute;
+    left: -720%;
+}
+.btn-primary {
+    right: 10%;
+	border-radius: 25px;
+	border: none;
+	background-color: olive;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 15px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	transform: translateY(-3px);
+}

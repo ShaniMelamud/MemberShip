@@ -1,0 +1,18 @@
+div{
+    overflow: hidden;
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: repeat(12,1fr);
+}
+
+div, div>*{
+    border:1px solid black;
+}
+
+header,footer,main{
+    grid-column: span 12;
+}
+
+

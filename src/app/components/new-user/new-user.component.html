@@ -1,0 +1,20 @@
+<div class="contact-us" >
+  <form >
+    <input required placeholder="Name" required="" type="text" name="name" [(ngModel)]="user.name" />
+    <input required name="bdayMonth" placeholder="Birth Date - Month"
+      type="number"  min="1" max="12" [(ngModel)]="user.bdMonth"/>
+      <input  name="customerPhone"  placeholder="Phone"
+      type="tel" pattern="[0-9]{4} [0-9]{3} [0-9]{3}" min=10 max=10 required [(ngModel)]="user.phone" />
+      <button  (click)="create()" type="button">Sign up</button>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
